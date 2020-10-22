@@ -78,11 +78,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,-----------------------------------------.                ,-----------------------------------------.
         ESC,     1,     2,     3,     4,     5,                      6,     7,     8,     9,     0,  BSPC,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-      CTLTB, XXXXX, VSAVE, VQUIT, XXXXX, XXXXX,                   LEFT,  DOWN,    UP, RIGHT,  LBRC,  RBRC,\
+      CTLTB, XXXXX, VSAVE,  LHUI,  LSAD,  LSAI,                   LEFT,  DOWN,    UP, RIGHT,  LBRC,  RBRC,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-       LSFT,  BSLS,  LSAI,  LHUI,  LMOD,  LTOG,                  XXXXX,  MUTE,  MINS,   EQL,  SCLN, ENSHFT,\
+       LSFT,  BSLS, VQUIT,  LHUI,  LMOD,  LTOG,                  XXXXX,  MUTE,  MINS,   EQL,  SCLN, ENSHFT,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
-                                  XXXXX, LGUI,   SPC,      SPC, LALT, QWERTY \
+                                  XXXXX, LGUI,   SPC,      SPC, LALT, XXXXX \
                               //`--------------------'  `--------------------'
   )
 };
